@@ -11,6 +11,7 @@ We have all seen fake news forwards on our WhatsApp messages. Generally, these a
 - [Aim](#aim)
 - [Installation](#installation)
 - [Stack](#stack)
+- [Development](#development)
 - [Request](#request)
     -[Bug](#bug)
 - [Contribute](#contribute)
@@ -43,8 +44,14 @@ The following libraries and modules were used in this software:
 - [matplotlib](https://matplotlib.org/)
 - [nltk](https://www.nltk.org/py-modindex.html)
 
+# Development
+[(Back to top)](#table-of-contents)
 
+## Method 1: Random Forest Classification**
+Random forests or random decision forests are an **ensemble learning** method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set. Random forests generally outperform decision trees, but their accuracy is lower than gradient boosted trees. However, data characteristics can affect their performance.
 
+## Method 2: Bidirectional Recurrent Neural Networks
+**Bidirectional Recurrent Neural Networks (BRNN)** connect two hidden layers of opposite directions to the same output. With this form of **generative deep learning**, the output layer can get information from past (backwards) and future (forward) states simultaneously. Invented in 1997 by Schuster and Paliwal, BRNNs were introduced to increase the amount of input information available to the network. Standard recurrent neural network (RNNs) also have restrictions as the future input information cannot be reached from the current state. On the contrary, BRNNs do not require their input data to be fixed. Moreover, their future input information is reachable from the current state.
 
 # Request
 [(Back to top)](#table-of-contents)
