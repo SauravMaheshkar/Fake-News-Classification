@@ -47,7 +47,7 @@ The following libraries and modules were used in this software:
 # Development
 [(Back to top)](#table-of-contents)
 
-## Method 1: Random Forest Classification**
+## Method 1: Random Forest Classification
 Random forests or random decision forests are an **ensemble learning** method for classification, regression and other tasks that operate by constructing a multitude of decision trees at training time and outputting the class that is the mode of the classes (classification) or mean prediction (regression) of the individual trees. Random decision forests correct for decision trees' habit of overfitting to their training set. Random forests generally outperform decision trees, but their accuracy is lower than gradient boosted trees. However, data characteristics can affect their performance.
 
 ## Method 2: Bidirectional Recurrent Neural Networks
