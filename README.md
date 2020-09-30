@@ -23,7 +23,7 @@ We have all seen fake news forwards on our WhatsApp messages. Generally, these a
 # Demo
 [(Back to top)](#table-of-contents)
 
-Here's a screenrecording of the Model in action. I copied a article from a authentic and reputed news source, pasted it on the text block and ran inference. As you can see the model gave the correct prediction of the article being Real
+Here's a screenrecording of the Model in action. I copied a article from a authentic and reputed news source, pasted it on the text block and ran inference. As you can see the model gave the correct prediction of the article being Real. The code for this UI can be found [here](https://github.com/SauravMaheshkar/Fake-News-Classification/tree/master/demo)
 
 ![Demo GIF](https://github.com/SauravMaheshkar/Fake-News-Classification/blob/master/demo.gif)
 
