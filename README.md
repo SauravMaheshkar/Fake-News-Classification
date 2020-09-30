@@ -68,6 +68,8 @@ Random forests or random decision forests are an **ensemble learning** method fo
 ## Method 2: Bidirectional Recurrent Neural Networks
 **Bidirectional Recurrent Neural Networks (BRNN)** connect two hidden layers of opposite directions to the same output. With this form of **generative deep learning**, the output layer can get information from past (backwards) and future (forward) states simultaneously. Invented in 1997 by Schuster and Paliwal, BRNNs were introduced to increase the amount of input information available to the network. Standard recurrent neural network (RNNs) also have restrictions as the future input information cannot be reached from the current state. On the contrary, BRNNs do not require their input data to be fixed. Moreover, their future input information is reachable from the current state.
 
+## Method 3: Decision Tree Classification
+**Decision tree** builds classification or regression models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. A decision node (e.g., Outlook) has two or more branches (e.g., Sunny, Overcast and Rainy). Leaf node (e.g., Play) represents a classification or decision. The topmost decision node in a tree which corresponds to the best predictor called root node. Decision trees can handle both categorical and numerical data. 
 
 # Request
 [(Back to top)](#table-of-contents)
