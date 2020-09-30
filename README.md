@@ -8,6 +8,7 @@ We have all seen fake news forwards on our WhatsApp messages. Generally, these a
 # Table of contents
 
 - [Table of contents](#table-of-contents)
+- [Demo](#demo)
 - [Aim](#aim)
 - [Installation](#installation)
 - [Stack](#stack)
@@ -18,10 +19,22 @@ We have all seen fake news forwards on our WhatsApp messages. Generally, these a
 - [License](#license)
 - [Credits](#credits)
 
+
+# Demo
+[(Back to top)](#table-of-contents)
+
+Here's a screenrecording of the Model in action. I copied a article from a authentic and reputed news source, pasted it on the text block and ran inference. As you can see the model gave the correct prediction of the article being Real
+
+![Demo GIF](https://github.com/SauravMaheshkar/Fake-News-Classification/blob/master/demo.gif)
+
+----------------
+
 # Aim
 [(Back to top)](#table-of-contents)
 
 The aim of this project is to make a Fake News Classification using various techniques like Recurrent Neural Networks and RandomForestClassification and figure out which performs the best for this use case.
+
+-----------------
 
 # Installation
 [(Back to top)](#table-of-contents)
@@ -31,6 +44,9 @@ To use this project, first clone the repo on your device using the command below
 ```git init```
 
 ```https://github.com/SauravMaheshkar/Fake-News-Classification.git``` 
+
+
+--------------------
 
 # Stack
 
@@ -44,6 +60,8 @@ The following libraries and modules were used in this software:
 - [matplotlib](https://matplotlib.org/)
 - [nltk](https://www.nltk.org/py-modindex.html)
 
+------------------------------------
+
 # Development
 [(Back to top)](#table-of-contents)
 
@@ -53,6 +71,8 @@ Random forests or random decision forests are an **ensemble learning** method fo
 ## Method 2: Bidirectional Recurrent Neural Networks
 **Bidirectional Recurrent Neural Networks (BRNN)** connect two hidden layers of opposite directions to the same output. With this form of **generative deep learning**, the output layer can get information from past (backwards) and future (forward) states simultaneously. Invented in 1997 by Schuster and Paliwal, BRNNs were introduced to increase the amount of input information available to the network. Standard recurrent neural network (RNNs) also have restrictions as the future input information cannot be reached from the current state. On the contrary, BRNNs do not require their input data to be fixed. Moreover, their future input information is reachable from the current state.
 
+-------------------------------------
+
 # Request
 [(Back to top)](#table-of-contents)
 
@@ -60,6 +80,8 @@ Random forests or random decision forests are an **ensemble learning** method fo
 [(Back to top)](#table-of-contents)
 
 If you spot a bug in the program kindly raise a issue. Instructions for raising an issue can be found [here](https://docs.github.com/en/enterprise/2.15/user/articles/creating-an-issue)
+
+------------------------------------
 
 # Contribute
 [(Back to top)](#table-of-contents)
@@ -79,6 +101,7 @@ If you want to contribute to the project kindly mail me at `sauravvmaheshkar@gma
 
 - 🔃 Create a new pull request using `https://github.com/SauravMaheshkar/Fake-News-Classification/compare/`
 
+-----------------------------
 
 # License
 [(Back to top)](#table-of-contents)
@@ -90,6 +113,7 @@ The data for this project was taken from kaggle datasets. The owner of the datas
 - Copyright 2020 @[Saurav Maheshkar](https://sauravmaheshkar.github.io/)
 - [MIT License](https://opensource.org/licenses/MIT)
 
+--------------------------------
 
 # Credits
 
