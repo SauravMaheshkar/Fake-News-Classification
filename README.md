@@ -56,6 +56,7 @@ The following libraries and modules were used in this software:
 - [sklearn](https://scikit-learn.org/stable/)
 - [matplotlib](https://matplotlib.org/)
 - [nltk](https://www.nltk.org/py-modindex.html)
+- [streamlit](https://docs.streamlit.io/en/stable/)
 
 
 # Development
